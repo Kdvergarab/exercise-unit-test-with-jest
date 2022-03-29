@@ -13,9 +13,9 @@ test("One euro should be 1.206 dollars", function(){
 
 test("One dollars should be 153.48 yen", function(){
         const { fromDollarToYen } = require('./app.js')
-        expect(fromDollarToYen(6)).toBe(767.4000000000001)});
+        expect(fromDollarToYen(6)).toBe(639.5)});
 
         test("One Yen should be 122.784 Pound", function(){
             const { fromYenToPound } = require('./app.js')
-            expect(fromYenToPound(1)).toBe(122.784)});
+            expect(fromYenToPound(1000)).toBe(6)});
         
